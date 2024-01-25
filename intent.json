@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Is anyone there"],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there,what can I do for you?",
+        "Hi there ,how can I help you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","See you later","GOoodbye"],
+      "response":["See you later","Thanks for visiting","Have a nice day","Bye!Come back agin soon"]
+    },
+
+    {
+        "tag":"travel destination",
+        "patterns":["preferred destination?"," travel"," destination?"],
+        "response":["What is your preferred travel destination?"]
+}
+  ]
+}
