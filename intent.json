@@ -23,31 +23,25 @@
 
     {
       "tag": "travel destination",
-      "patterns": ["preferred destination?", " travel", " destination"],
-      "response": ["What is your preferred travel destination?"]
+      "patterns": [
+        "Show preferred destination",
+        "Most Suitable travel location ",
+        "show economical destination"
+      ],
+      "response": ["Italy", "Spain", "Pakistan"]
     },
     {
       "tag": "interested",
-      "patterns": ["interested","activites", " travel", " during"],
+      "patterns": ["interested", "activites", " travel", " during"],
       "response": [
         "Are you interested in any specific activities during your travel?"
       ]
     },
     {
-        "tag": "budget",
-        "patterns": ["money", " currency", " trip","$"],
-        "response": [
-          "What is your budget for the trip?"
-        ]
-      }
+      "tag": "budget",
+      "patterns": ["money", " currency", " trip", "$"],
+      "response": ["What is your budget for the trip?"]
+    }
   ]
 }
 
-
-/*When are you planning to travel?
-What type of accommodations do you prefer?
-Any specific attractions you would like to visit?
-Do you have any dietary preferences for dining options?
-How do you like to get around during your travels?
-What is your preferred travel style - adventurous, relaxing, cultural, etc.?
-Do you have any specific requirements or considerations for your trip?*/
