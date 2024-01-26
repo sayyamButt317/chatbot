@@ -35,7 +35,7 @@
     },
     {
         "tag": "budget",
-        "patterns": ["money", " currency", " trip"],
+        "patterns": ["money", " currency", " trip","$"],
         "response": [
           "What is your budget for the trip?"
         ]
